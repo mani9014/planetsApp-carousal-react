@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.planets-Item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  align-items: wrap;
+  text-align: center;
+}
+.planet-heading {
+  color: #05acff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.planet-image {
+  height: 150px;
+  width: 150px;
+}
+.name {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+.description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
